@@ -197,8 +197,8 @@ class ArrayWrapTest extends \PHPUnit_Framework_TestCase
 
         $arrayWrap
             ->remove('name')
-            ->add('city', 'some city')
-            ->add('country', 'some country');
+            ->set('city', 'some city')
+            ->set('country', 'some country');
 
         $count = $arrayWrap->count();
         $this->assertEquals(3, $count);
