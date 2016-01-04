@@ -26,3 +26,5 @@ $wrappedArray->set('email', 'jane.doe@example.com'
 ````
 vendor/bin/phpunit -c phpunit.xml
 ````
+
+PHP 5.6 or higher required for running tests
