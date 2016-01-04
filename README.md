@@ -1,6 +1,8 @@
 # ArrayWrap
 OOP wrap for php arrays
 
+[![Build Status](https://travis-ci.org/Ivan988/array-wrap.svg?branch=master)](https://travis-ci.org/Ivan988/array-wrap)
+
 
 ### Usage
 ```php
